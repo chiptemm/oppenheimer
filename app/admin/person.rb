@@ -1,4 +1,5 @@
 ActiveAdmin.register Person do
+  permit_params :first_name, :last_name, :email, :skype
 
   
   # See permitted parameters documentation:
