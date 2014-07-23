@@ -1,4 +1,5 @@
 ActiveAdmin.register Opportunity do
+  permit_params :name, :description, :rfp_url
 
   
   # See permitted parameters documentation:
